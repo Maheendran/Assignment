@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital@0;1&family=Qwitcher+Grypen&family=Rancho&family=Righteous&family=Roboto+Mono:wght@500&family=Russo+One&family=Satisfy&display=swap');
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: black;
+  border-radius: 20px;
+}

@@ -1,0 +1,1 @@
+export const commonlink="https://api.jikan.moe/v4/anime"

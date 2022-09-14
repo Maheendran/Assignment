@@ -1,0 +1,61 @@
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  border: 2px solid transparent;
+}
+
+.grid_inner_div {
+  height: 20rem;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.grid_hover_div {
+  position: absolute;
+  width: 100%;
+  height: 33%;
+  max-width: 15rem;
+  bottom: -5rem;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  opacity: 0;
+  left: 0;
+  font-size: 0.6rem;
+  padding-left: 1rem;
+  background-color: rgba(255, 255, 255, 0.279);
+  backdrop-filter: blur(3px);
+  transition: 0.5s ease-in-out;
+  align-items: center;
+}
+.grid_inner_div:hover .grid_hover_div {
+  opacity: 1;
+  bottom: 0rem;
+}
+.grid_inner_div:hover {
+  box-shadow: rgba(255, 255, 255, 0.153) 0px 20px 90px,
+    rgba(245, 245, 245, 0.12) 0px -12px 30px,
+    rgba(250, 150, 199, 0.244) 0px 4px 4px,
+    rgba(252, 252, 252, 0.214) 0px 10px 13px,
+    rgba(246, 243, 243, 0.141) 0px -3px 5px;
+}
+#title_banner {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+#genre_banner {
+  font-size: 0.8rem;
+}
+.flex_bottom_div {
+  width: 100%;
+  display: flex;
+  font-size: 0.5rem;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 20px;
+}

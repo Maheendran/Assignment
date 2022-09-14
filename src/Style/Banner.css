@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital@0;1&family=Qwitcher+Grypen&family=Rancho&family=Righteous&family=Roboto+Mono:wght@500&family=Russo+One&family=Satisfy&display=swap");
+
+.dummy_div {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+.banner_conatiner {
+  margin: auto;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.main_banner {
+  width: 40%;
+  height: 90%;
+  position: relative;
+  align-items: center;
+  margin-left: 1rem;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.main_banner_heading {
+  z-index: -1;
+  width: 30%;
+  position: absolute;
+  left: 40%;
+  top: 13rem;
+  animation: 10s slide forwards infinite;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0rem);
+  }
+  100% {
+    transform: translateX(10rem);
+  }
+}
+.main_banner_heading > h1 {
+  font-size: 2.9rem;
+}
+
+.main_banner img {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}

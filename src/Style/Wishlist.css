@@ -1,0 +1,21 @@
+.main_whishlist {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+.grid_whishlist {
+  height: 24rem;
+  text-align: center;
+}
+.grid_whishlist img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
